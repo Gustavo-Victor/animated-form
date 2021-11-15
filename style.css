@@ -9,13 +9,14 @@
 body{
     background-color: rgb(147, 61, 228);
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
 /*title*/
 h1{
     color: white;
     text-align: center;
-    margin: 2rem 0;
+    margin: 5% 0 2rem 0;
 }
 
 /*form*/
@@ -28,6 +29,7 @@ h1{
     border-radius: 8px;
     animation: fade 1s forwards;
     overflow: hidden;
+    z-index: 999;
 }
 
 /*down effect*/
@@ -63,7 +65,7 @@ h1{
     padding: 5px 10px;    
 }
 
-/*animation groups of inputs*/
+/*animate form field groups*/
 #login-form .group:nth-child(1){
     animation: move 0.5s;
 }
@@ -71,7 +73,6 @@ h1{
 #login-form .group:nth-child(2){
     animation: move 0.4s backwards 0.1s;
 }
-
 
 /*button*/
 #login-form button{
@@ -91,7 +92,18 @@ h1{
     background-color: rgb(164, 66, 255);
 }
 
+.squares li{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    animation: up 2s infinite;
+    animation-direction: alternate;
+}
 
+/*animations using keyframes*/
 @keyframes fade{
     from{
         opacity: 0;
@@ -125,7 +137,7 @@ h1{
 }
 
 @keyframes nono{
-    0%{
+    0%, 100%{
         transform: translateX(0);
     }
 
@@ -136,8 +148,20 @@ h1{
     70%{
         transform: translateX(5%);
     }
+}
 
-    100%{
-        transform: translateX(0);
+@keyframes up{
+    from{
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+        transform: translateY(-900px) rotate(960deg);        
     }
 }
