@@ -12,7 +12,7 @@ Form Page using CSS Animation and JS
 - [Features](#-features)
 - [How to Contribue](#-get-started)
 - [Author](#-author)
-- [License](#-license)
+- [License](#-Licence)
 
 ## 💻 About
 
@@ -49,7 +49,7 @@ Made with ❤️ by Gustavo Souza. 👋 [Get in touch](https://www.linkedin.com/
 - CodePen - [@gustavo_victor](https://codepen.io/gustavo_victor)
 - Linkedin - [@gustavo-victor](https://www.linkedin.com/in/gustavo-victor-575b93206/)
 
-## 📝 Licence 
+## 📝Licence 
 This project is under the [MIT license](./LICENSE).
 
 Anyone can use, clone, fork and contribute to this project.
