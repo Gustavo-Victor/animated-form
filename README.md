@@ -12,7 +12,7 @@ Form Page using CSS Animation and JS
 - [Features](#-features)
 - [How to Contribue](#-get-started)
 - [Author](#-author)
-- [License](#-Licence)
+- [License](#-licence)
 
 ## 💻 About
 
