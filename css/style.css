@@ -10,13 +10,18 @@ body{
     background-color: rgb(147, 61, 228);
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
 }
 
 /*title*/
 h1{
     color: white;
     text-align: center;
-    margin: 5% 0 2rem 0;
+    margin: 2% 0;
 }
 
 /*form*/

@@ -1,6 +1,8 @@
 const button_submit = window.document.querySelector("#submit");
 const main_form = window.document.querySelector('#login-form');
-const page_body = window.document.body
+const page_body = window.document.body;
+const mainTitle = page_body.firstElementChild;
+
 
 button_submit.addEventListener('click', (event) => {
     event.preventDefault();
@@ -33,6 +35,7 @@ button_submit.addEventListener('click', (event) => {
 page_body.addEventListener('animationstart', (event) =>{
     if(event.animationName === 'down'){
         page_body.style.overflow = 'hidden'; 
+        mainTitle.innerHTML = '';
     }
 });
 
@@ -40,7 +43,7 @@ page_body.addEventListener('animationstart', (event) =>{
 main_form.addEventListener('animationend', (event) => {
     if(event.animationName === 'down'){
         main_form.style.display = 'none';
-        page_body.style.overflow = 'none';
+        page_body.style.overflow = 'none';        
     }
 });
 
