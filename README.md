@@ -3,24 +3,27 @@
 Form Page using CSS Animation and JS
 
 🚀Completed ✅
-## Table of Contents 
-- [About the Project](#about-the-project)
-- [Screenshots](#screenshots)
-- [How to use](#how-to-use)
-- [Features](#features)
-- [How to Contribue](#how-to-contribue)
-- [Author](#author)
-- [License](#lincese)
 
-## 💻 About the Project
+## Table of Contents 
+
+- [About the Project](#-about)
+- [Screenshots](#-screenshots)
+- [Get Started](#-get-started)
+- [Features](#-features)
+- [How to Contribue](#-get-started)
+- [Author](#-author)
+- [License](#-lincese)
+
+## 💻 About
 
 This project consists of a simple form page with css animations and is designed to practice animating dynamic forms using CSS and JavaScript. The project was developed based on a Rocketseat tutorial on Youtube, but with some modifications.
+
 ## 🎨 Screenshots
 ### Desktop / Laptop 
 ![img](./images/screenshot1.png)
 
 
-## 🚀 How to Use 
+## 🚀 Get Started 
 To clone, use, modify and contribuite to this project, you just need basic knowledge of [Git](https://git-scm.com/), HTML, CSS and JavaScript, plus a code editor like [Visual Studio Code](https://code.visualstudio.com/).
 ## 🛠 Features
 The following tools were used in the construction of the project:
